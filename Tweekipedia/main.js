@@ -18,11 +18,18 @@ function input_event() {
                 //モバイル版URL
                 title = title.substring(2);
             }
+            tweet_title = title.replace("_", " ");
+            if (decodeURIComponent(title) == title) {
+                //titleはURIエンコードされていない
+                title = encodeURIComponent(title)
+            } else {
+                //titleはエンコードされている
+                tweet_title = decodeURIComponent(title);
+            }
 
             document.getElementById("copy_text").value =
                 "https://tweekipedia.azurewebsites.net/?lang=" + lang +
                 "&title=" + title;
-            tweet_title = title.replace("_", " ");
             input_error(false);
         } else {
             input_error(true);
