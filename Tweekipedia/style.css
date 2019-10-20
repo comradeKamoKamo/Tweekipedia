@@ -19,6 +19,20 @@ a:visited {
     }
 }
 
+@media screen and (max-width:1024px) {
+   img#logo {
+       width:125px;
+       height:125px;
+   }
+   body {
+       font-size:0.6em;
+   }
+   h3 {
+       font-size:1.0em;
+   }
+}
+
+
 input#wikiurl_text {
     width:80%;
 }

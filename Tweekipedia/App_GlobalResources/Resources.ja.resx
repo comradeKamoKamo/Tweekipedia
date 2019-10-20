@@ -133,7 +133,7 @@
     <value>URLが無効です。このサービスは「https://**.wikipedia.org/wiki/記事タイトル」のような記事のみを対象としています。</value>
   </data>
   <data name="secondMsg" xml:space="preserve">
-    <value>2, 以下のツイートボタンを押すか、生成されたURLをコピーして利用してください。</value>
+    <value>2, ツイートボタンを押すか、以下のURLをコピーしてください。</value>
   </data>
   <data name="tweet" xml:space="preserve">
     <value>ツイート</value>

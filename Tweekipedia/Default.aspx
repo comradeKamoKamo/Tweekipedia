@@ -31,7 +31,7 @@
         </h1>
     </noscript>
         <div class="center">
-            <img alt="Tweekipedia Logo" src="Logos/ogp_default.png" /><br />
+            <img alt="Tweekipedia Logo" src="Logos/ogp_default.png" id="logo"/><br />
             <!-- The Wikipedia logo is from wikipedia.org -->
             <%= GetGlobalResourceObject("Resources", "description") %>
         </div>

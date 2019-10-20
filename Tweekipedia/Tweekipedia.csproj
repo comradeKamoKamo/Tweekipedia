@@ -132,7 +132,6 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
-    <Content Include="app.config" />
     <None Include="Properties\PublishProfiles\tweekipedia - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\tweekipedia - Web Deploy.pubxml" />
     <Content Include="Logos\ogp_default.png" />

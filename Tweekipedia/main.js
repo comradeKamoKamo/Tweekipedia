@@ -65,8 +65,7 @@ function copy_event() {
     const textbox = document.getElementById("copy_text");
     if (textbox.value == "") return;
     textbox.select();
-    document.ex
-    ecCommand("copy");
+    document.execCommand("copy");
     document.getElementById("copy_done_span").style = "";
 }
 
