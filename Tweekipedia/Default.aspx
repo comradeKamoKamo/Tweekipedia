@@ -21,6 +21,8 @@
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@tweekipedia_" />
     <meta property="og:site_name" content="Tweekipedia" />
+
+    <meta name="google-site-verification" content="6AzlMAi5BkXINxWema2bmRyWPGWBBjIIneARlTsa5EA" />
 </head>
 
 <body>
