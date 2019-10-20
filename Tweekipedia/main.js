@@ -86,7 +86,7 @@ function tweet() {
     let tweet_url = "https://twitter.com/intent/tweet"
     let text = ""
     if (tweet_title != "") {
-        text = decodeURIComponent(tweet_title) + "- Wikipedia via @tweekipedia_ " + url;
+        text = tweet_title + " - Wikipedia via @tweekipedia_ " + url;
     } else {
         text = "Wikipedia via @tweekipedia_ " + url;
     }
