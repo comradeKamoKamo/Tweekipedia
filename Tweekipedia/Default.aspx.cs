@@ -38,7 +38,8 @@ namespace Tweekipedia
                 {
                     if(MakeWpLogo(lang))
                     {
-                        og_image.Attributes.Add("content", "Logos/" + lang + "_logo.png");
+                        og_image.Attributes.Add("content", 
+                            "https://tweekipedia.azurewebsites.net/Logos/" + lang + "_logo.png");
                     }
                 }
 
@@ -46,7 +47,7 @@ namespace Tweekipedia
             else
             {
                 og_title.Attributes.Add("content", "Tweekipedia");
-                og_image.Attributes.Add("content", "Logos/ogp_default.png");
+                og_image.Attributes.Add("content", "https://tweekipedia.azurewebsites.net/Logos/ogp_default.png");
             }
         }
 
