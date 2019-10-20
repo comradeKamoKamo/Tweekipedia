@@ -63,6 +63,8 @@
                     <%= GetGlobalResourceObject("Resources", "copy_done") %> 
                 </span>
                 <br /><br />
+                Example<br />
+                    <blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">&quot;Hello, World!&quot;_program - Wikipedia via <a href="https://twitter.com/tweekipedia_?ref_src=twsrc%5Etfw">@tweekipedia_</a> <a href="https://t.co/yf9nEOrsPo">https://t.co/yf9nEOrsPo</a></p>&mdash; Tweekipedia (@tweekipedia_) <a href="https://twitter.com/tweekipedia_/status/1185854504127696897?ref_src=twsrc%5Etfw">October 20, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                 <hr />
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
                 <br /><br />
