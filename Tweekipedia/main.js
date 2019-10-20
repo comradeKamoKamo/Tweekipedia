@@ -14,6 +14,10 @@ function input_event() {
             let lang = wiki_url.substring(result[1].length);
             lang = lang.substring(0, lang.indexOf("."));
             let title = wiki_url.substring(result[1].length + lang.length + result[2].length);
+            if (title.substring(0, 2) == "i/") {
+                //モバイル版URL
+                title = title.substring(2);
+            }
 
             document.getElementById("copy_text").value =
                 "https://tweekipedia.azurewebsites.net/?lang=" + lang +
