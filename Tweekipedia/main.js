@@ -24,7 +24,7 @@ function input_event() {
                 title = encodeURIComponent(title)
             } else {
                 //titleはエンコードされている
-                tweet_title = decodeURIComponent(title);
+                tweet_title = decodeURIComponent(title).replace("_", " ");
             }
 
             document.getElementById("copy_text").value =
