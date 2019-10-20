@@ -106,6 +106,15 @@ namespace Tweekipedia.App_GlobalResources {
         }
         
         /// <summary>
+        ///   en に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string lang {
+            get {
+                return ResourceManager.GetString("lang", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   2, Push the Tweet button, or copy the generated following URL. に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string secondMsg {

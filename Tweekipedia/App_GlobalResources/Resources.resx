@@ -132,6 +132,9 @@
   <data name="input_error" xml:space="preserve">
     <value>The url is invalid. This service only support a Wikipedia article like https://**.wikipedia.org/wiki/ARTICLE_TITLE</value>
   </data>
+  <data name="lang" xml:space="preserve">
+    <value>en</value>
+  </data>
   <data name="secondMsg" xml:space="preserve">
     <value>2, Push the Tweet button, or copy the generated following URL.</value>
   </data>

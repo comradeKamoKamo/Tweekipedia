@@ -1,7 +1,7 @@
 ﻿<%@ page language="C#" autoeventwireup="true" codebehind="Default.aspx.cs" inherits="Tweekipedia._Default" culture="auto" uiculture="auto" %>
 
 <!DOCTYPE html>
-<html>
+<html lang="<%= GetGlobalResourceObject("Resources", "lang") %>">
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Tweekipedia</title>
