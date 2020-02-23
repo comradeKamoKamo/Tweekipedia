@@ -27,6 +27,11 @@ function input_event() {
                 tweet_title = decodeURIComponent(title).replace("_", " ");
             }
 
+            //RFC-3986に厳格に対応する
+            title = title.replace(/[!'()*]/g, function (c) {
+                return '%' + c.charCodeAt(0).toString(16);
+            });
+
             document.getElementById("copy_text").value =
                 "https://tweekipedia.azurewebsites.net/?lang=" + lang +
                 "&title=" + title;
